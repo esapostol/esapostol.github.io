@@ -1,0 +1,170 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+.bga {
+    background: #212529;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    padding: 15px 40px;
+    align-items: center;
+}
+
+.bga img {
+    width: 25px;
+    vertical-align: middle;
+    margin-right: 5px;
+}
+
+.bga ul {
+    list-style: none;
+    display: flex;
+}
+
+.bga li {
+    margin-left: 20px;
+}
+
+.bga a {
+    color: white;
+    text-decoration: none;
+}
+
+.bga .active {
+    background: #198753;
+    padding: 10px 15px;
+    border-radius: 5px;
+}
+
+.slide {
+    display: flex;
+    background: #e2e3e5;
+}
+
+.slide img {
+    width: 60%;
+}
+
+.align{
+    display: flex;
+   
+}
+
+.align1{
+    display: flex;
+    
+}
+
+.checkbox{
+
+    align-items: side;
+}
+
+.form {
+    background: #e2e3e5;
+    padding: 20px;
+    width: 30%;
+}
+
+.form input {
+    width: 100%;
+    margin-bottom: 10px;
+    padding: 10px;
+    border-radius: 10px;
+    border-color: white;
+}
+
+.form button {
+    background: #198753;
+    color: white;
+    border: none;
+    padding: 10px;
+    width: 50%;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.whyus {
+    text-align: center;
+    padding: 50px;
+}
+
+.cards {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 20px;
+}
+
+.card {
+    border: 1px solid #e2e3e5;
+    width: 380px;
+    border-radius: 5px;
+}
+
+.card img {
+    width: 100%;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+
+.card a {
+    padding: 10px;
+    text-align: left;
+}
+
+.m {
+    display: flex;
+    justify-content: space-between;
+    padding: 40px;
+    background: #e2e3e5;
+    align-items: center;
+}
+
+.m img {
+    width: 50%;
+}
+
+.m-text {
+    width: 50%;
+    padding-right: 20px;
+}
+
+.m button {
+    background: #ffc007;
+    border: none;
+    padding: 10px 10px;
+    cursor: pointer;
+    border-radius: 10px;
+}
+
+footer {
+    background: #f9f9f9;
+    padding: 20px 40px;
+    display: flex;
+    justify-content: space-between;
+    font-size: 12px;
+}
+
+.cd {
+    color: #585c5e;
+}
+
+footer .section {
+    display: contents;
+    gap: 10px;
+}
+
+
+footer li {
+    margin-bottom: 5px;
+    padding: 2px
+}
+
+.links {
+    color: #585c5e;
+
+}
+
